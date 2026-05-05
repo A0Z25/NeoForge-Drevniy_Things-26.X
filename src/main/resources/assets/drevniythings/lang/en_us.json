@@ -1,13 +1,4 @@
 {
-  "itemGroup.drevniythings": "Example Mod Tab",
-  "block.drevniythings.example_block": "Example Block",
-  "item.drevniythings.example_item": "Example Item",
-
-  "drevniythings.configuration.title": "Drevniy things Configs",
-  "drevniythings.configuration.section.drevniythings.common.toml": "Drevniy things Configs",
-  "drevniythings.configuration.section.drevniythings.common.toml.title": "Drevniy things Configs",
-  "drevniythings.configuration.items": "Item List",
-  "drevniythings.configuration.logDirtBlock": "Log Dirt Block",
-  "drevniythings.configuration.magicNumberIntroduction": "Magic Number Text",
-  "drevniythings.configuration.magicNumber": "Magic Number"
+  "item.drevniythings.azurite": "Azurite",
+  "item.drevniythings.raw_azurite": "Raw Azurite"
 }
