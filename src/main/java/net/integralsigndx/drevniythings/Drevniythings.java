@@ -1,5 +1,6 @@
 package net.integralsigndx.drevniythings;
 
+import net.integralsigndx.drevniythings.creativemodetab.ModCreativeModeTabs;
 import net.integralsigndx.drevniythings.item.ModItems;
 import org.slf4j.Logger;
 
@@ -45,6 +46,8 @@ public class Drevniythings {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
+        ModCreativeModeTabs.register(modEventBus);
+
         ModItems.register(modEventBus);
 
         NeoForge.EVENT_BUS.register(this);
@@ -64,14 +67,6 @@ public class Drevniythings {
         if(event.getTabKey()==CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.AZURITE);
             event.accept(ModItems.RAW_AZURITE);
-            event.accept(ModItems.LITHERITE);
-            event.accept(ModItems.ERODIUM);
-            event.accept(ModItems.KYRONITE);
-            event.accept(ModItems.PLADIUM);
-            event.accept(ModItems.IONITE);
-            event.accept(ModItems.AETHIUM);
-            event.accept(ModItems.NANORITE);
-            event.accept(ModItems.XEROTHIUM);
         }
     }
 
