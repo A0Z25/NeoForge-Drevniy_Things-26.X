@@ -64,6 +64,14 @@ public class Drevniythings {
         if(event.getTabKey()==CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.AZURITE);
             event.accept(ModItems.RAW_AZURITE);
+            event.accept(ModItems.LITHERITE);
+            event.accept(ModItems.ERODIUM);
+            event.accept(ModItems.KYRONITE);
+            event.accept(ModItems.PLADIUM);
+            event.accept(ModItems.IONITE);
+            event.accept(ModItems.AETHIUM);
+            event.accept(ModItems.NANORITE);
+            event.accept(ModItems.XEROTHIUM);
         }
     }
 

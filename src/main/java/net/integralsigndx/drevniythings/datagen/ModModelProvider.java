@@ -17,5 +17,13 @@ public class ModModelProvider extends ModelProvider {
     protected void registerModels(BlockModelGenerators blockModels, ItemModelGenerators itemModels) {
         itemModels.generateFlatItem(ModItems.AZURITE.get(), ModelTemplates.FLAT_ITEM);
         itemModels.generateFlatItem(ModItems.RAW_AZURITE.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.LITHERITE.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.ERODIUM.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.KYRONITE.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.PLADIUM.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.IONITE.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.AETHIUM.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.NANORITE.get(), ModelTemplates.FLAT_ITEM);
+        itemModels.generateFlatItem(ModItems.XEROTHIUM.get(), ModelTemplates.FLAT_ITEM);
     }
 }
