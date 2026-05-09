@@ -19,6 +19,7 @@ public class ModItems {
     public static final DeferredItem<Item> AETHIUM = ITEMS.registerSimpleItem("aethium");
     public static final DeferredItem<Item> NANORITE = ITEMS.registerSimpleItem("nanorite");
     public static final DeferredItem<Item> XEROTHIUM = ITEMS.registerSimpleItem("xerothium");
+    public static final DeferredItem<Item> RAW_SILICON = ITEMS.registerSimpleItem("raw_silicon");
 
 
     public static void register(IEventBus eventBus){

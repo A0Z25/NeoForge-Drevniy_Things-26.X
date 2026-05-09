@@ -1,5 +1,6 @@
 package net.integralsigndx.drevniythings;
 
+import net.integralsigndx.drevniythings.block.ModBlocks;
 import net.integralsigndx.drevniythings.creativemodetab.ModCreativeModeTabs;
 import net.integralsigndx.drevniythings.item.ModItems;
 import org.slf4j.Logger;
@@ -49,6 +50,7 @@ public class Drevniythings {
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         NeoForge.EVENT_BUS.register(this);
 
