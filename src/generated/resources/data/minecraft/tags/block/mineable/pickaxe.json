@@ -1,0 +1,16 @@
+{
+  "values": [
+    "drevniythings:azurite_block",
+    "drevniythings:raw_azurite_block",
+    "drevniythings:azurite_ore",
+    "drevniythings:azurite_deepslate_ore",
+    "drevniythings:azurite_nether_ore",
+    "drevniythings:azurite_end_ore",
+    "drevniythings:silicon_ore",
+    "drevniythings:silicon_deepslate_ore",
+    "drevniythings:crystal_matrix",
+    "drevniythings:blaze_cube_block",
+    "drevniythings:neutron_block",
+    "drevniythings:infinity_block"
+  ]
+}

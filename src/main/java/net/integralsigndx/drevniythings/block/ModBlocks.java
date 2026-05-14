@@ -17,7 +17,6 @@ import java.util.function.Function;
 public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS =
             DeferredRegister.createBlocks(Drevniythings.MODID);
-
     public static final DeferredBlock<Block> AZURITE_BLOCK = registerBlock("azurite_block",
             properties -> new Block(properties
                     .strength(4f)
@@ -58,21 +57,21 @@ public class ModBlocks {
                     .strength(4.5f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.DEEPSLATE)));
-    public static final DeferredBlock<Block> BLAZE_CUBE_BLOCK = registerBlock("blaze_cube_block",
-            properties -> new Block(properties
-                    .strength(6.0f)
-                    .requiresCorrectToolForDrops()
-                    .sound(SoundType.METAL)));
     public static final DeferredBlock<Block> CRYSTAL_MATRIX = registerBlock("crystal_matrix",
             properties -> new Block(properties
                     .strength(7.0f)
                     .requiresCorrectToolForDrops()
                     .sound(SoundType.METAL)));
-    public static final DeferredBlock<Block> NEUTRONIUM_BLOCK = registerBlock("neutronium_block",
+    public static final DeferredBlock<Block> BLAZE_CUBE_BLOCK = registerBlock("blaze_cube_block",
+            properties -> new Block(properties
+                    .strength(5.0f)
+                    .requiresCorrectToolForDrops()
+                    .sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> NEUTRON_BLOCK = registerBlock("neutron_block",
             properties -> new Block(properties
                     .strength(10.0f)
                     .requiresCorrectToolForDrops()
-                    .sound(SoundType.METAL)));
+                    .sound(SoundType.NETHERITE_BLOCK)));
     public static final DeferredBlock<Block> INFINITY_BLOCK = registerBlock("infinity_block",
             properties -> new Block(properties
                     .strength(55.0f)

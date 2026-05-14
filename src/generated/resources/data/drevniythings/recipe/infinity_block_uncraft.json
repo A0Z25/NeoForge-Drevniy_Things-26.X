@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "drevniythings:infinity_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "drevniythings:infinity_ingot"
+  }
+}

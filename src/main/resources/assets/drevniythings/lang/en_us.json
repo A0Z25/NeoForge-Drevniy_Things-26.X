@@ -10,6 +10,20 @@
   "item.drevniythings.nanorite": "Nanorite",
   "item.drevniythings.xerothium": "Xerothium",
   "item.drevniythings.raw_silicon": "Raw Silicon",
+  "item.drevniythings.reinforced_cloth": "Reinforced Cloth",
+  "item.drevniythings.tin_canister": "Tin Canister",
+  "item.drevniythings.copper_canister": "Copper Canister",
+  "item.drevniythings.record_fragment": "Record Fragment",
+  "item.drevniythings.diamond_lattice": "Diamond Lattice",
+  "item.drevniythings.crystal_matrix_ingot": "Crystal Matrix Ingot",
+  "item.drevniythings.blaze_cube": "Blaze Cube",
+  "item.drevniythings.neutron_gear": "Neutronium Gear",
+  "item.drevniythings.neutron_ingot": "Neutronium Ingot",
+  "item.drevniythings.neutron_nugget": "Neutronium Nugget",
+  "item.drevniythings.neutron_pile": "Pile of Neutrons",
+  "item.drevniythings.infinity_catalyst": "Infinity Catalyst",
+  "item.drevniythings.infinity_ingot": "Infinity Ingot",
+  "item.drevniythings.infinity_nugget": "Infinity Nugget",
 
   "block.drevniythings.azurite_block": "Azurite Block",
   "block.drevniythings.raw_azurite_block": "Raw Azurite Block",
@@ -21,9 +35,10 @@
   "block.drevniythings.silicon_deepslate_ore": "Silicon Deepslate Ore",
   "block.drevniythings.blaze_cube_block": "Blaze Cube Block",
   "block.drevniythings.crystal_matrix": "Crystal Matrix",
-  "block.drevniythings.neutronium_block": "Neutronium Block",
+  "block.drevniythings.neutron_block": "Neutronium Block",
   "block.drevniythings.infinity_block": "Infinity Block",
 
   "creativetab.drevniythings.azurite_items": "Azurite Items",
-  "creativetab.drevniythings.drevniy_things": "Drevniy Things"
+  "creativetab.drevniythings.drevniy_things_blocks": "Drevniy Things Blocks",
+  "creativetab.drevniythings.drevniy_things_items": "Drevniy Things Items"
 }

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": "drevniythings:diamond_lattice",
+    "S": "minecraft:nether_star"
+  },
+  "pattern": [
+    "ASA",
+    "ASA"
+  ],
+  "result": {
+    "id": "drevniythings:crystal_matrix_ingot"
+  }
+}
